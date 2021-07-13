@@ -80,6 +80,8 @@ justify-content: space-between;}
 .fa-star.empty{
     color: #AEAEAE;
 }
+.fa-clock,.time{color: #FF4A60;}
+.course-duration{background-color: #FFE4E8;}
 
 /* media query for mobile device */
 
@@ -88,8 +90,8 @@ justify-content: space-between;}
       .container{width: 100%;}
       .players,.blogs,.courses{grid-template-columns: repeat(1,1fr);}
       .player,.blog,.course{flex-direction: column;}
-
     .course{margin-bottom: 60px;}
+
 }
 
 /* tab view */
